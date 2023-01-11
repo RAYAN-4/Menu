@@ -72,22 +72,89 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000;
+    z-index: 100;
     box-shadow: var(--box-shadow);
 }
 
 header .logo{
     color:var(--black);
-    font-size: 2.5rem;
+    font-size: 1.0rem;
     font-weight: bolder;
+    
+
 }
 
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 20px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.logo {
+	width: 150%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	width: 50px;
+	height: 50;
+	border-radius: 50%;
+	
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	
+}
+
+.logo {
+	width: 18%;
+	max-width: 350px;
+	padding: 20px 21px;
+	box-sizing:var(--black);
+	text-align: center;
+}
+
+
+
 header .logo h1{
-    color:#8fd362;
- 
-    margin-top: -22px;
+   
+    font-size: 3.5rem;
+    margin-top: -11px;
+    color: azure;
+    --color1: azure;
+    --color2: aqua;
+    --color3: rgb(80, 150, 103);
+    --color4: rgb(71, 138, 101);
+    font-family: Sriracha;
+
+    --interval: 1s;
+    display: block;
+    text-shadow: 
+      0 0 10px var(--color1),
+      0 0 20px var(--color2),
+      0 0 40px var(--color3),
+      0 0 80px var(--color4);
+    will-change: filter, color;
+    filter: saturate(60%);
+    animation: flicker steps(100) var(--interval) 1s infinite;
     
 }
+
+
 
 header .navbar a{
     font-size: 2.7rem;
@@ -597,6 +664,7 @@ header .icons #menu-bars{
     top:-110%;
     opacity:0;
 }
+
 
 
 
