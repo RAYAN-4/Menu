@@ -68,7 +68,7 @@ header{
     position: fixed;
     top:0; left: 0; right:0;
     background: rgb(70, 66, 66);
-    padding:1rem 7%;
+    padding:1px 7%;
     display: flex;
     align-items: center;
     justify-content: space-between;
