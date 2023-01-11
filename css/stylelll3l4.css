@@ -68,7 +68,7 @@ header{
     position: fixed;
     top:0; left: 0; right:0;
     background: rgb(70, 66, 66);
-    padding:1px 7%;
+    padding:-11rem 7%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,7 +78,7 @@ header{
 
 header .logo{
     color:var(--black);
-    font-size: 1.0rem;
+    font-size: 1.1rem;
     font-weight: bolder;
     
 
@@ -87,21 +87,21 @@ header .logo{
 
 @keyframes float {
 	0% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		box-shadow: 0 5px 15px 0px #c9bbbb00;
 		transform: translatey(0px);
 	}
 	50% {
-		box-shadow: 0 20px 15px 0px rgba(0,0,0,0.2);
+		box-shadow: 0 20px 15px 0px rgba(255, 250, 250, 0);
 		transform: translatey(-20px);
 	}
 	100% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		box-shadow: 0 5px 15px 0px #fff9f900;
 		transform: translatey(0px);
 	}
 }
 
 .logo {
-	width: 150%;
+	width: 111%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -110,11 +110,11 @@ header .logo{
 }
 
 .logo {
-	width: 50px;
-	height: 50;
+	width: 40px;
+	
 	border-radius: 50%;
 	
-	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	
 	transform: translatey(0px);
 	animation: float 6s ease-in-out infinite;
 	
@@ -132,8 +132,8 @@ header .logo{
 
 header .logo h1{
    
-    font-size: 3.5rem;
-    margin-top: -11px;
+    font-size: 16px;
+    margin-top: -5px;
     color: azure;
     --color1: azure;
     --color2: aqua;
@@ -256,11 +256,12 @@ header .icons #menu-bars{
 }
 
 .home .home-slider .slide .content{
-    flex:1 1 45rem;
+    flex:1 1 41rem;
 }
 
 .home .home-slider .slide .image{
-    flex:1 1 45rem;
+    flex:1 1 4rem;
+    margin-top: 13%;
 }
 
 .home .home-slider .slide .image img{
@@ -269,17 +270,20 @@ header .icons #menu-bars{
 
 .home .home-slider .slide .content span{
     color:var(--green);
-    font-size: 2.5rem;
+    font-size: 3335%;
+    
+    
 }
 
 .home .home-slider .slide .content h3{
     color:var(--black);
-    font-size: 7rem;
+    font-size: 8rem;
+
 }
 
 .home .home-slider .slide .content p{
     color:var(--light-color);
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     padding:.5rem 0;
     line-height: 1.5;
 }
@@ -707,7 +711,7 @@ header .icons #menu-bars{
     }
     
     header{
-        padding:1rem 2rem;
+        padding:1px 1px;
     }
 
     section{
