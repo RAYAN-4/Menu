@@ -605,11 +605,10 @@ header .icons #menu-bars{
 h1 {
   font-size: calc(10px + 10vh);
   line-height: calc(12px + 10vh);
-/*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+ text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
     0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
-  color: #fccaff; */
-  text-shadow: 0 0 5px #8FBC8F, 0 0 15px #8FBC8F, 0 0 20px #ffa500, 0 0 10px #ffa500, 0 0 60px #ff0000, 0 0 10px #8FBC8F, 0 0 98px #8FBC8F;
-    color: #8FBC8F;
+  color: #fccaff;
+ 
   font-family: "Sacramento", cursive;
   text-align: center;
   animation: blink 12s infinite;
